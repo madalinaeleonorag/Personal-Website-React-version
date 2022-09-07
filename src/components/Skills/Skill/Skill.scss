@@ -1,0 +1,24 @@
+.skill {
+  padding: 1vh 1vw;
+  flex: 0 1 10%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  img {
+    height: 50px;
+  }
+
+  &-progress-bar {
+    margin-top: 1vh;
+    width: 100%;
+    padding: 1px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: var(--darkPlum);
+
+    &-fill {
+      display: block;
+      height: 10px;
+    }
+  }
+}

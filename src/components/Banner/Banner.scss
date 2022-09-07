@@ -1,0 +1,15 @@
+.banner {
+  background: url(../../assets/banner-background.png);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  .subtitle {
+  }
+  .title {
+    font-size: 2rem;
+  }
+}

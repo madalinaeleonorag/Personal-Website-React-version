@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 2vh 2vw;
+
+  .title {
+    color: var(--primary);
+    margin: 0 1vw;
+    font-size: 1.5rem;
+  }
+
+  .right-items {
+    a {
+      margin: 0 1vw;
+    }
+  }
+}
