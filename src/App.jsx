@@ -2,7 +2,7 @@ import "./App.scss";
 import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
 import Skills from "./components/Skills/Skills";
-import Experience from "./components/Experience/Experience";
+import Experiences from "./components/Experiences/Experiences";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Skills />
-      <Experience />
+      <Experiences />
     </div>
   );
 }

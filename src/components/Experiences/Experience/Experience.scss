@@ -1,0 +1,26 @@
+.experience {
+  display: flex;
+  flex-flow: column;
+  margin: 1vh 1vw;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    height: 150px;
+    width: auto;
+  }
+
+  &-role {
+    font-weight: bold;
+  }
+
+  &-date {
+    display: flex;
+    flex-flow: row;
+
+    &-start {
+    }
+    &-end {
+    }
+  }
+}
