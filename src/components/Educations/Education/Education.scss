@@ -1,0 +1,23 @@
+.education {
+  display: flex;
+  flex-flow: column;
+  margin: 1vh 1vw;
+  align-items: center;
+  cursor: pointer;
+  flex: 1 1 40%;
+  text-align: center;
+
+  img {
+    height: 150px;
+    width: auto;
+  }
+
+  &-field {
+    font-weight: bold;
+  }
+
+  &-date {
+    display: flex;
+    flex-flow: row;
+  }
+}

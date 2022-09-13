@@ -223,3 +223,99 @@ export const WORK_EXPERIENCE = [
     ],
   },
 ];
+
+export const EDUCATIONS = [
+  {
+    school: "Romanian-American University",
+    degree: "Master's degree",
+    fieldOfStudy:
+      "Computer/Information Technology Administration and Management",
+    startYear: "2018",
+    endYear: "2020",
+    grade: "9.66",
+    logo: "romanian-american-university",
+  },
+  {
+    school: "Romanian-American University",
+    fieldOfStudy:
+      "Computer/Information Technology Administration and Management",
+    degree: "Licentiate degree",
+    startYear: "2015",
+    endYear: "2018",
+    grade: "9.50",
+    logo: "romanian-american-university",
+  },
+];
+
+export const CERTIFICATIONS = [
+  {
+    logo: "HackerRank",
+    name: "Angular Certificate",
+    organization: "HackerRank",
+    issueDate: "Mar 2022",
+    url: "https://www.hackerrank.com/certificates/502d54979ed0",
+  },
+  {
+    logo: "EF-Standard",
+    name: "English Certificate - C1 Advanced",
+    organization: "EF Standard English Test (EF SET)",
+    issueDate: "Mar 2022",
+    url: "https://www.efset.org/cert/V3b9C2",
+  },
+  {
+    logo: "Think-like-a-hacker",
+    name: "Think like a hacker",
+    organization: "IBM",
+    issueDate: "Sep 2021",
+    url: "https://www.credly.com/badges/2b0b25bd-328e-45c3-8248-85e09c380ef2",
+  },
+  {
+    logo: "IBM_Cloud_Essentials",
+    name: "IBM Cloud Essentials",
+    organization: "IBM",
+    issueDate: "Jan 2021",
+    url: "https://www.youracclaim.com/badges/26b0884f-9c3a-42f1-be74-6b23c4f6a743",
+  },
+  {
+    logo: "Security-_-Privacy-by-Design-Foundational",
+    name: "Security and Privacy by Design Foundations",
+    organization: "IBM",
+    issueDate: "Jan 2021",
+    url: "https://www.youracclaim.com/badges/84998ca5-487f-4c61-b1e5-298ec991bb20",
+  },
+  {
+    logo: "Watson_and_Cloud_Foundations",
+    name: "Watson and Cloud Foundations",
+    organization: "IBM",
+    issueDate: "Jan 2021",
+    url: "https://www.youracclaim.com/badges/11c2db76-b461-4bf9-8a12-9a42663d404f",
+  },
+  {
+    logo: "IBM-Mentor",
+    name: "IBM Mentor",
+    organization: "IBM",
+    issueDate: "Dec 2020",
+    url: "https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21",
+  },
+  {
+    logo: "JavaScript-Front-End-Development",
+    name: "JavaScript Frontend Development",
+    organization: "IBM",
+    issueDate: "Dec 2020",
+    url: "https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50",
+  },
+  {
+    logo: "Badges_v8-07_Practitioner",
+    name: "Enterprise Design Thinking Practitioner",
+    organization: "IBM",
+    issueDate: "Mar 2020",
+    url: "https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402",
+  },
+  {
+    logo: "IBM-Agile-Explorer",
+    name: "IBM Agile Explorer",
+    organization: "IBM",
+    issueDate: "Mar 2020",
+    url: "https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f",
+  },
+];
