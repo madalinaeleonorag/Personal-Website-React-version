@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { GITHUB_URL } from "../../assets/environments";
 import Project from "./Project/Project";
 import "./Projects.scss";
 
@@ -6,9 +7,7 @@ const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=6"
-    )
+    fetch(GITHUB_URL)
       .then((response) => {
         return response.json();
       })

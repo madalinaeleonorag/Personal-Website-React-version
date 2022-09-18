@@ -7,6 +7,7 @@ import Educations from "./components/Educations/Educations";
 import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Projects";
 import Awards from "./components/Awards/Awards";
+import Publications from "./components/Publications/Publications";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Certifications />
       <Projects />
       <Awards />
+      <Publications />
     </div>
   );
 }

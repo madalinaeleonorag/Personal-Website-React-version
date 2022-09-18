@@ -48,7 +48,9 @@ const Project = ({ projectData }) => {
         }}
       ></div>
       <div className="project-role">{projectData.name}</div>
-      <a href={projectData.html_url} target="_blank"></a>
+      <a href={projectData.html_url} target="_blank">
+        See on GitHub
+      </a>
     </div>
   );
 };
