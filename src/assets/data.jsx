@@ -319,3 +319,16 @@ export const CERTIFICATIONS = [
     url: "https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f",
   },
 ];
+
+export const AWARDS = [
+  {
+    name: "Rau-DevHack Hackathon",
+    place: 2,
+    date: "Apr 2019",
+  },
+  {
+    name: "Web&Mobile Challenge at DevHacks",
+    date: "Nov 2018",
+    place: 1,
+  },
+];

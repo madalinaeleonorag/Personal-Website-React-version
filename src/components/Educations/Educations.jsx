@@ -9,7 +9,7 @@ const Educations = () => {
       <div className="app-content">
         {EDUCATIONS.map((education) => {
           return (
-            <Education educationData={education} key={education.company} />
+            <Education educationData={education} key={education.startYear} />
           );
         })}
       </div>
