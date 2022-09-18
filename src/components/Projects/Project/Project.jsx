@@ -10,7 +10,7 @@ const Project = ({ projectData }) => {
   useEffect(() => {
     if (
       checkImageURL(
-        "https://raw.githubusercontent.com/${projectData.full_name}/main/demo.png"
+        `https://raw.githubusercontent.com/${projectData.full_name}/main/demo.png`
       )
     ) {
       setImageUrl(
@@ -18,7 +18,7 @@ const Project = ({ projectData }) => {
       );
     } else if (
       checkImageURL(
-        "https://raw.githubusercontent.com/${projectData.full_name}/master/demo.png"
+        `https://raw.githubusercontent.com/${projectData.full_name}/master/demo.png`
       )
     ) {
       setImageUrl(
