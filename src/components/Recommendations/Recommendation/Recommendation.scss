@@ -1,0 +1,34 @@
+.recommendation {
+  display: flex;
+  flex-flow: column;
+  line-height: 1.5rem;
+  margin: 1.5vh 0;
+
+  &-content {
+    border: 1px solid var(--darkPrimary);
+    border-radius: 16px;
+    padding: 2vh 2vw;
+    background: var(--darkPlum);
+
+    &::before {
+      content: '" ';
+      font-size: x-large;
+      color: var(--darkPrimary);
+      font-family: -webkit-body;
+    }
+
+    &::after {
+      content: ' "';
+      font-size: x-large;
+      color: var(--darkPrimary);
+      font-family: -webkit-body;
+    }
+  }
+
+  &-author {
+    display: flex;
+    justify-content: right;
+    color: var(--primary);
+    padding: 0.5vh 0;
+  }
+}

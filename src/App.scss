@@ -16,4 +16,12 @@
     flex-flow: wrap;
     justify-content: center;
   }
+
+  .copyright {
+    color: var(--primary);
+    padding: 10px;
+    font-size: smaller;
+    width: -webkit-fill-available;
+    text-align-last: center;
+  }
 }

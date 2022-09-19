@@ -8,6 +8,9 @@ import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Projects";
 import Awards from "./components/Awards/Awards";
 import Publications from "./components/Publications/Publications";
+import Photography from "./components/Photography/Photography";
+import Recommendations from "./components/Recommendations/Recommendations";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
       <Projects />
       <Awards />
       <Publications />
+      <Photography />
+      <Recommendations />
+      <Contact />
+      <div className="copyright">© Madalina-Eleonora Gheorghe 2021</div>
     </div>
   );
 }

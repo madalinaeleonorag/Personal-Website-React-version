@@ -1,0 +1,13 @@
+.photo {
+  display: flex;
+  flex-flow: column;
+  margin: 1vh 1vw;
+  align-items: center;
+
+  &-image {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+}
