@@ -7,7 +7,11 @@ const Contact = () => {
       <div className="app-title">Let's be internet BFFs</div>
       <div className="app-content">
         {CONTACT.map((recommendation) => {
-          return <a href={recommendation.link}>{recommendation.website}</a>;
+          return (
+            <a href={recommendation.link} key={recommendation.website}>
+              {recommendation.website}
+            </a>
+          );
         })}
       </div>
     </div>

@@ -1,7 +1,6 @@
 import "./Publication.scss";
 
 const Publication = ({ publicationData }) => {
-  console.log(publicationData);
   return (
     <div className="publication">
       <div

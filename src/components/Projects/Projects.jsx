@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { GITHUB_URL } from "../../assets/environments";
 import Project from "./Project/Project";
+import { PROJECTS_FALLBACK } from "../../assets/projects-fallback";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -14,10 +15,13 @@ const Projects = () => {
       .then((projects) => {
         if (projects) {
           setProjectsData(projects);
+        } else {
+          setProjectsData(PROJECTS_FALLBACK);
         }
       })
       .catch((error) => {
         console.log(error);
+        setProjectsData(PROJECTS_FALLBACK);
       });
   }, []);
 
