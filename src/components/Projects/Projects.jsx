@@ -19,21 +19,23 @@ const Projects = () => {
   const BACKEND_LANGUAGES = ["C#", "JAVA", "C++", "PHP"];
 
   const filterData = () => {
-    return projectsData.filter((project) => {
-      switch (filter) {
-        case "frontend":
-          return FRONTEND_LANGUAGES.includes(project.language);
-        case "backend":
-          return BACKEND_LANGUAGES.includes(project.language);
-        case "others":
-          return (
-            !BACKEND_LANGUAGES.includes(project.language) &&
-            !FRONTEND_LANGUAGES.includes(project.language)
-          );
-        default:
-          return true;
-      }
-    });
+    return projectsData && projectsData.length > 0
+      ? projectsData.filter((project) => {
+          switch (filter) {
+            case "frontend":
+              return FRONTEND_LANGUAGES.includes(project.language);
+            case "backend":
+              return BACKEND_LANGUAGES.includes(project.language);
+            case "others":
+              return (
+                !BACKEND_LANGUAGES.includes(project.language) &&
+                !FRONTEND_LANGUAGES.includes(project.language)
+              );
+            default:
+              return true;
+          }
+        })
+      : [];
   };
 
   const changeFilter = (selection) => {
@@ -59,7 +61,7 @@ const Projects = () => {
 
   return (
     <div className="projects app-padding">
-      <div className="app-title">03. Education 📚</div>
+      <div className="app-title">03. Latest programming projects 💻</div>
       <div className="filters">
         <input
           type="radio"
