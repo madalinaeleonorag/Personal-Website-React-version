@@ -2,24 +2,38 @@
   display: flex;
   flex-flow: column;
   margin: 1vh 1vw;
+  background-color: var(--darkPlum);
+  border-radius: 10px;
+  padding: 1.5vh;
   align-items: center;
+  flex: 0 1 25%;
 
   img {
     height: 150px;
     width: auto;
   }
 
-  &-role {
-    font-weight: bold;
-  }
-
-  &-date {
+  &-content {
+    text-align: center;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
+    height: -webkit-fill-available;
+    justify-content: space-between;
 
-    &-start {
+    &-role {
+      font-weight: bold;
+      padding: 1.5vh 0;
     }
-    &-end {
+
+    &-date {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+
+      &-start {
+      }
+      &-end {
+      }
     }
   }
 }

@@ -2,16 +2,35 @@
   display: flex;
   flex-flow: column;
   margin: 1vh 1vw;
+  background-color: var(--darkPlum);
+  border-radius: 10px;
   align-items: center;
+  flex: 1 1 29%;
 
   &-image {
-    height: 200px;
-    width: 200px;
+    height: 15vw;
+    min-height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
   }
 
-  &-name {
-    font-weight: bold;
+  &-content {
+    padding: 1.5vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+
+    &-name {
+      font-weight: bold;
+    }
+
+    a {
+      margin-top: 1.5vh;
+      text-align: right;
+    }
   }
 }

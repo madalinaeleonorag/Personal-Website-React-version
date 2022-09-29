@@ -47,10 +47,12 @@ const Project = ({ projectData }) => {
           backgroundImage: imageUrl,
         }}
       ></div>
-      <div className="project-role">{projectData.name}</div>
-      <a href={projectData.html_url} target="_blank">
-        See on GitHub
-      </a>
+      <div className="project-content">
+        <div className="project-content-name">{projectData.name}</div>
+        <a href={projectData.html_url} target="_blank">
+          See on GitHub
+        </a>
+      </div>
     </div>
   );
 };

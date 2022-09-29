@@ -14,10 +14,17 @@ const Experience = ({ experienceData }) => {
   return (
     <div className="experience">
       <img src={imageUrl} alt="" />
-      <div className="experience-role">{experienceData.role}</div>
-      <div className="experience-date">
-        <div className="experience-date-start">{experienceData.dateStart}</div>-
-        <div className="experience-date-end">{experienceData.dateEnd}</div>
+      <div className="experience-content">
+        <div className="experience-content-role">{experienceData.role}</div>
+        <div className="experience-content-date">
+          <div className="experience-content-date-start">
+            {experienceData.dateStart}
+          </div>
+          -
+          <div className="experience-content-date-end">
+            {experienceData.dateEnd}
+          </div>
+        </div>
       </div>
     </div>
   );

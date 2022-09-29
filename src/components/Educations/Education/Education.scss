@@ -1,10 +1,13 @@
 .education {
   display: flex;
   flex-flow: column;
-  margin: 1vh 1vw;
   align-items: center;
   flex: 1 1 40%;
   text-align: center;
+  margin: 1vh 1vw;
+  background-color: var(--darkPlum);
+  border-radius: 10px;
+  padding: 1.5vh;
 
   img {
     height: 150px;
