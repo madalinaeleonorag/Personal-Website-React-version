@@ -4,7 +4,6 @@ import IMAGE_NOT_FOUND from "../../../assets/images/image-not-found.png";
 import "./Project.scss";
 
 const Project = ({ projectData }) => {
-  // TODO add photos to projects
   const [imageUrl, setImageUrl] = useState("");
 
   useEffect(() => {
@@ -21,6 +20,8 @@ const Project = ({ projectData }) => {
         filteredResult
           ? setImageUrl(`url(${filteredResult.url})`)
           : setImageUrl(`url(${IMAGE_NOT_FOUND})`);
+        // TODO
+        console.clear();
       })
       .catch((err) => setImageUrl(`url(${IMAGE_NOT_FOUND})`));
     // } catch {
@@ -39,6 +40,10 @@ const Project = ({ projectData }) => {
     //   });
   }, []);
 
+  const sliceLongText = (text) => {
+    return text?.slice(0, 70) + "...";
+  };
+
   return (
     <div className="project">
       <div
@@ -49,6 +54,12 @@ const Project = ({ projectData }) => {
       ></div>
       <div className="project-content">
         <div className="project-content-name">{projectData.name}</div>
+        <div className="project-content-description">
+          {projectData.description
+            ? sliceLongText(projectData.description)
+            : ""}
+        </div>
+        <div className="project-content-languages">{projectData.language}</div>
         <a href={projectData.html_url} target="_blank">
           See on GitHub
         </a>
