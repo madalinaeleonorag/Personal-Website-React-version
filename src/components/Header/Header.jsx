@@ -1,4 +1,5 @@
 import SVGImage from "../UI/SVGImage";
+import Toggle from "./Toggle/Toggle";
 import "./Header.scss";
 
 const Header = () => {
@@ -37,6 +38,7 @@ const Header = () => {
         <a href="./assets/CV.pdf" target="_blank" className="app-button">
           Resume
         </a>
+        <Toggle />
       </div>
     </div>
   );
