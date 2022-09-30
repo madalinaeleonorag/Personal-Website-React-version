@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import checkImageURL from "../../../helpers/image-url-validation";
 import IMAGE_NOT_FOUND from "../../../assets/images/image-not-found.png";
 import "./Project.scss";
+import sliceText from "../../../helpers/slice-text";
 
 const Project = ({ projectData }) => {
   const [imageUrl, setImageUrl] = useState("");
@@ -40,10 +41,6 @@ const Project = ({ projectData }) => {
     //   });
   }, []);
 
-  const sliceLongText = (text) => {
-    return text?.slice(0, 70) + "...";
-  };
-
   return (
     <div className="project">
       <div
@@ -56,11 +53,11 @@ const Project = ({ projectData }) => {
         <div className="project-content-name">{projectData.name}</div>
         <div className="project-content-description">
           {projectData.description
-            ? sliceLongText(projectData.description)
+            ? sliceText(projectData.description, 70)
             : ""}
         </div>
         <div className="project-content-languages">{projectData.language}</div>
-        <a href={projectData.html_url} target="_blank">
+        <a href={projectData.html_url} target="_blank" className="app-button">
           See on GitHub
         </a>
       </div>

@@ -9,13 +9,19 @@
   padding: 1.5vh;
   flex: 0 1 30%;
 
-  //   img {
-  //     height: 150px;
-  //     width: auto;
-  //   }
+  svg {
+    width: 100px;
+    height: 100px;
+    fill: var(--primary);
+
+    &:hover {
+      fill: var(--darkPrimary);
+    }
+  }
 
   &-name {
     font-weight: bold;
+    padding: 1vh 0;
   }
 
   &-date {

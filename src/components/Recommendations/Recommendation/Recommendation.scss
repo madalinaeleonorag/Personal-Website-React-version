@@ -2,7 +2,8 @@
   display: flex;
   flex-flow: column;
   line-height: 1.5rem;
-  margin: 1.5vh 0;
+  flex: 1 1 45%;
+  margin: 1vh;
 
   &-content {
     border: 1px solid var(--darkPrimary);

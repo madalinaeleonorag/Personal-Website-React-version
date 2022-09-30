@@ -17,6 +17,22 @@
     justify-content: center;
   }
 
+  &-button {
+    text-decoration: none;
+    color: var(--primary);
+    text-transform: uppercase;
+    background-color: var(--darkPlum);
+    padding: 0.5vh 1vh;
+    border: 1px solid var(--darkPrimary);
+    border-radius: 6px;
+
+    &:hover {
+      color: var(--primary);
+      background-color: var(--darkPrimary);
+      border-color: var(--primary);
+    }
+  }
+
   .copyright {
     color: var(--primary);
     padding: 10px;

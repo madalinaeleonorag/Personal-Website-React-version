@@ -1,10 +1,10 @@
+import SVGImage from "../../UI/SVGImage";
 import "./Award.scss";
 
 const Award = ({ awardData }) => {
   return (
     <div className="award">
-      {/* TODO add custom component for svgs/pngs
-      <img src={imageUrl} alt="" /> */}
+      <SVGImage image={awardData.place} />
       <div className="award-name">{awardData.name}</div>
       <div className="award-date">{awardData.date}</div>
     </div>

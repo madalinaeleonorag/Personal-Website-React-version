@@ -7,7 +7,7 @@ const Recommendations = () => {
     <div className="recommendations app-padding">
       <div className="app-title">09. Recommendations</div>
       <div className="app-content">
-        {RECOMMENDATIONS.slice(0, 5).map((recommendation) => {
+        {RECOMMENDATIONS.slice(0, 6).map((recommendation) => {
           return (
             <Recommendation
               recommendationData={recommendation}

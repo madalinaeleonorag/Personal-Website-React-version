@@ -31,6 +31,7 @@ const Projects = () => {
                 !BACKEND_LANGUAGES.includes(project.language) &&
                 !FRONTEND_LANGUAGES.includes(project.language)
               );
+            case "latest":
             default:
               return true;
           }
@@ -76,7 +77,6 @@ const Projects = () => {
           value="frontend"
           name="filter"
           aria-label="frontend"
-          checked
           onChange={(e) => changeFilter(e.target.value)}
         />
         Frontend

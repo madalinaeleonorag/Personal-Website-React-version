@@ -2,6 +2,16 @@
   .app-content {
     a {
       margin: 0 1vw;
+
+      svg {
+        width: 25px;
+        height: 25px;
+        fill: var(--primary);
+
+        &:hover {
+          fill: var(--darkPrimary);
+        }
+      }
     }
   }
 }

@@ -399,17 +399,10 @@ export const RECOMMENDATIONS = [
     from: "Deloitte Digital",
   },
   {
-    text: `Hi Mada,
-      <br>
-      You can find my feedback for our collaboration bellow:
-      <br>
-      I’m working together with Madalina since February this year. Though she joined the project in a phase where everything was almost finished, she managed to get up to speed with the technology and the ways of working in a very short time. Given the speedy handover, the short ramp-up period and the big amount of information, she managed to understand the architecture of the solution quickly. From early on, she was fully independent from a tech perspective, requiring assistance only for understanding the feature she needed to implement. Even though she is a less experienced frontend developer than the former one, seeing her work I can confirm that she managed to surpass everyone’s expectations. She communicates the blockers & issues clearly, she developed complex features faster and with increased quality than before.She handled cloud configuration & installs for the applications that she developed with ease, even though this is out of her area of expertise. 
-      <br>
+    text: `I’m working together with Madalina since February this year. Though she joined the project in a phase where everything was almost finished, she managed to get up to speed with the technology and the ways of working in a very short time. Given the speedy handover, the short ramp-up period and the big amount of information, she managed to understand the architecture of the solution quickly. From early on, she was fully independent from a tech perspective, requiring assistance only for understanding the feature she needed to implement. Even though she is a less experienced frontend developer than the former one, seeing her work I can confirm that she managed to surpass everyone’s expectations. She communicates the blockers & issues clearly, she developed complex features faster and with increased quality than before.She handled cloud configuration & installs for the applications that she developed with ease, even though this is out of her area of expertise. 
       She is asking everyone for information when she needs it, she is efficiently communicating her concerns and thus, every story that she implemented was easily integrated with the backend components and the platform. Moreover, I appreciate the fact that during refinements and clarifications, she challenges the approach and the input data, and, thus we managed to increase the quality of the features’ description resulting in better structured stories and acceptance criteria.
-      <br>
       I know that this project was Madalina’s chance to work with React and I’m recommending her to continue to do so. I’m sure that there are still areas where she can improve. At the same time, I’m hoping that was a good introduction for her with this technology. 
       Madalina still needs to focus on understanding stories and requirements better. At the same time, given the short span of time she’s been on the project and the complexity of the stories coupled with some descriptions being in german, I consider that she did a great job in this regard.
-      <br>
       Concluding these lines, I’m happy that I got the chance to work with her and I would definitely like to continue doing this in the future.`,
     author: "Andrei-Ioan Popescu",
     role: "Team Lead",
@@ -424,8 +417,7 @@ export const RECOMMENDATIONS = [
     from: "Deloitte Digital",
   },
   {
-    text: `Hi Madalina,<br>
-      Madalina was a fundamental part of Alpha for Insurance, particularly at a point where we needed to ramp up development. Madalina instantly collaborated with the team and importantly understood our objectives quickly. The repeated feedback from the development lead was how quickly our production increased – thanks to Madalina. Madalina clearly has a strong skillset which benefited our FE team significantly. Madalina worked hard to develop her colleagues and ensured they were implementing best practice techniques. As a Product Manager, I really value this. Thank you 😊`,
+    text: `Madalina was a fundamental part of Alpha for Insurance, particularly at a point where we needed to ramp up development. Madalina instantly collaborated with the team and importantly understood our objectives quickly. The repeated feedback from the development lead was how quickly our production increased – thanks to Madalina. Madalina clearly has a strong skillset which benefited our FE team significantly. Madalina worked hard to develop her colleagues and ensured they were implementing best practice techniques. As a Product Manager, I really value this. Thank you 😊`,
     author: "Jack Taylor",
     role: "Manager",
     date: "Apr 6, 2022",
@@ -439,15 +431,12 @@ export const RECOMMENDATIONS = [
     from: "Deloitte Digital",
   },
   {
-    text: `Hi Madalina,<br>
-      Please find below my feedback for you. The feedback is based on my interaction with you, as well as feedback I have received from various Alpha stakeholders (UK and ERDC).<br>
-      During her time spent on Alpha space, Madalina has shown a lot of flexibility and maturity.<br>
+    text: `Please find below my feedback for you. The feedback is based on my interaction with you, as well as feedback I have received from various Alpha stakeholders (UK and ERDC).
+      During her time spent on Alpha space, Madalina has shown a lot of flexibility and maturity.
       Even though she had to change teams and industries, from banking to insurance, her experience has been extremely appreciate by our main stakeholders and there have been multiple requests to keep her on Alpha.
       From a technical perspective, she delivers extremely fast and at a high quality. For example, she managed to bring visible improvements on the web app in just a couple of weeks, as well as mentioning more junior team members. If given the opportunity (to match her expertise and role desired), she has the ability to make a huge  difference, she has the skills and determination needed. For that, she has my respect and support through her career path, here in Digital.
-      <br>
       As a future recommendation, I would probably suggest Madalina to socialise and interact with her team more. I fully understand it can be challenging to adapt to a new company, environment, team but sometimes, all you need to do is open yourself a little bit, and let your colleagues get closer to you.
       Note: The above suggest is based on my personal experience from a while back. It\'s up to Madalina to analyse and decide if it was just a context issue or if she thinks there is room to improve as I\'m not that close to her day to day activity.
-      <br>
       Thanks,
       Isabela`,
     author: "Isabela Pecete",
@@ -456,8 +445,8 @@ export const RECOMMENDATIONS = [
     from: "Deloitte Digital",
   },
   {
-    text: `To Whom It May Concern,<br>
-      I have been working with Madalina for almost two months on Alpha for Insurance core project. Even though the collaboration was for a short while as the project could not afford extra costs at this time, she managed to leave a very strong impression. She gave a huge boost to our Web app development, she came with a very long list of improvements to our existing app and managed to implement a lot of those items in just a couple of weeks: upgrade Angular from ver 8 up to ver 13, brought in good practices like introducing a vocabulary into the app, introducing CSS constants, introducing model classes, refactoring a lot of components to make them more reusable, adjust tons of pieces of layout to make them more responsive, updating and eliminating redundant dependencies, etc. She is mastering SASS, she is extremely fast at delivering very appealing layouts with very well structured CSS code. The quality of the code she has been writing and the overall work quality has been impressive. She delivered a lot of features in a very short time, at the highest standards. She is hard working and determined to deliver good quality work. For Web developer Consultant level she is a top performer. I hope to work with Madalina soon. I would always want her in my team, given the opportunity.<br>
+    text: `To Whom It May Concern, 
+      I have been working with Madalina for almost two months on Alpha for Insurance core project. Even though the collaboration was for a short while as the project could not afford extra costs at this time, she managed to leave a very strong impression. She gave a huge boost to our Web app development, she came with a very long list of improvements to our existing app and managed to implement a lot of those items in just a couple of weeks: upgrade Angular from ver 8 up to ver 13, brought in good practices like introducing a vocabulary into the app, introducing CSS constants, introducing model classes, refactoring a lot of components to make them more reusable, adjust tons of pieces of layout to make them more responsive, updating and eliminating redundant dependencies, etc. She is mastering SASS, she is extremely fast at delivering very appealing layouts with very well structured CSS code. The quality of the code she has been writing and the overall work quality has been impressive. She delivered a lot of features in a very short time, at the highest standards. She is hard working and determined to deliver good quality work. For Web developer Consultant level she is a top performer. I hope to work with Madalina soon. I would always want her in my team, given the opportunity.
       Thank you for your hard work and for the huge improvements to our app, Madalina!`,
     author: "Dragos-Vasile Lungu",
     role: "Technical Lead",

@@ -11,7 +11,7 @@ const Publication = ({ publicationData }) => {
       ></div>
       <div className="publication-content">
         <div className="publication-content-title">{publicationData.title}</div>
-        <a href={publicationData.link} target="_blank">
+        <a href={publicationData.link} target="_blank" className="app-button">
           See on Medium
         </a>
       </div>

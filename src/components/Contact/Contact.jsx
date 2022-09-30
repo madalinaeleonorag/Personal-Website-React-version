@@ -1,4 +1,5 @@
 import { CONTACT } from "../../assets/data";
+import SVGImage from "../UI/SVGImage";
 import "./Contact.scss";
 
 const Contact = () => {
@@ -9,7 +10,7 @@ const Contact = () => {
         {CONTACT.map((recommendation) => {
           return (
             <a href={recommendation.link} key={recommendation.website}>
-              {recommendation.website}
+              <SVGImage image={recommendation.website} />
             </a>
           );
         })}

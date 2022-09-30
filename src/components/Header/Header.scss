@@ -3,16 +3,32 @@
   flex-flow: row;
   justify-content: space-between;
   margin: 2vh 2vw;
+  align-items: center;
 
   .title {
     color: var(--primary);
     margin: 0 1vw;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
   }
 
   .right-items {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
     a {
       margin: 0 1vw;
+
+      svg {
+        width: 25px;
+        height: 25px;
+        fill: var(--primary);
+
+        &:hover {
+          fill: var(--darkPrimary);
+        }
+      }
     }
   }
 }
