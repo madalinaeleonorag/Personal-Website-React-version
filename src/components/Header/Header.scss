@@ -51,3 +51,21 @@
     }
   }
 }
+
+@media screen and (max-width: 445px) {
+  .header {
+    .title {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
+    .right-items {
+      a {
+        display: none;
+      }
+    }
+  }
+}

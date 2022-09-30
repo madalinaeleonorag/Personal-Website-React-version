@@ -33,3 +33,11 @@
     padding: 0.5vh 0;
   }
 }
+
+@media screen and (max-width: 599px) {
+  .recommendation {
+    &-author {
+      font-size: 0.8rem;
+    }
+  }
+}

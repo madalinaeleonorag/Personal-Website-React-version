@@ -11,3 +11,23 @@
     background-position: center;
   }
 }
+
+@media screen and (max-width: 599px) {
+  .photo {
+    &-image {
+      height: 100px;
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .photo {
+    margin: 0.5vh 1vw;
+
+    &-image {
+      height: 75px;
+      width: 75px;
+    }
+  }
+}

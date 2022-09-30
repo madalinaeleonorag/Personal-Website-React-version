@@ -35,3 +35,9 @@
     }
   }
 }
+
+@media screen and (max-width: 445px) {
+  .project {
+    flex: 1 1 50%;
+  }
+}

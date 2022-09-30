@@ -30,3 +30,15 @@
     }
   }
 }
+
+@media screen and (max-width: 445px) {
+  .skill {
+    img {
+      height: 30px;
+    }
+
+    &-progress-bar-fill {
+      height: 5px;
+    }
+  }
+}
