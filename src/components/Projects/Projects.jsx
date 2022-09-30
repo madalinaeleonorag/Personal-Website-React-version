@@ -6,7 +6,7 @@ import "./Projects.scss";
 
 const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
-  const [filter, setFilter] = useState("frontend");
+  const [filter, setFilter] = useState("latest");
   const FRONTEND_LANGUAGES = [
     "HTML",
     "CSS",
@@ -20,7 +20,7 @@ const Projects = () => {
 
   const filterData = () => {
     return projectsData && projectsData.length > 0
-      ? projectsData.filter((project) => {
+      ? projectsData.filter((project, index) => {
           switch (filter) {
             case "frontend":
               return FRONTEND_LANGUAGES.includes(project.language);
@@ -32,6 +32,7 @@ const Projects = () => {
                 !FRONTEND_LANGUAGES.includes(project.language)
               );
             case "latest":
+              return index < 6;
             default:
               return true;
           }
@@ -64,6 +65,14 @@ const Projects = () => {
     <div className="projects app-padding">
       <div className="app-title">03. Latest programming projects 💻</div>
       <div className="filters">
+        <input
+          type="radio"
+          value="latest"
+          name="filter"
+          aria-label="latest"
+          onChange={(e) => changeFilter(e.target.value)}
+        />
+        Latest
         <input
           type="radio"
           value=""
@@ -102,7 +111,11 @@ const Projects = () => {
           return <Project projectData={project} key={project.id} />;
         })}
       </div>
-      <a href="https://github.com/madalinaeleonorag" target="_blank">
+      <a
+        href="https://github.com/madalinaeleonorag"
+        target="_blank"
+        className="app-button"
+      >
         See more on GitHub
       </a>
     </div>

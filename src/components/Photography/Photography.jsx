@@ -14,6 +14,7 @@ const Photography = () => {
       <a
         href="https://500px.com/p/madalinaeleonorag?view=galleries"
         target="_blank"
+        className="app-button"
       >
         See more on 500px
       </a>

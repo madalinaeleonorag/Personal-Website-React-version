@@ -45,7 +45,11 @@ const Publications = () => {
           );
         })}
       </div>
-      <a href="https://madalinaeleonorag.medium.com/" target="_blank">
+      <a
+        href="https://madalinaeleonorag.medium.com/"
+        target="_blank"
+        className="app-button"
+      >
         See more on Medium
       </a>
     </div>
