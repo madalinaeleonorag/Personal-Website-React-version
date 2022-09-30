@@ -41,3 +41,9 @@
     text-align-last: center;
   }
 }
+
+@media screen and (max-width: 599px) {
+  .app-padding {
+    padding: 2vh 7vw;
+  }
+}

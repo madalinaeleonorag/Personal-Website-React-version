@@ -27,3 +27,12 @@
   &-date {
   }
 }
+
+@media screen and (max-width: 599px) {
+  .award {
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

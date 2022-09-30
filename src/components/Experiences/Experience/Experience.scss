@@ -37,3 +37,17 @@
     }
   }
 }
+
+@media screen and (max-width: 599px) {
+  .experience {
+    img {
+      height: 120px;
+    }
+
+    &-content {
+      &-date {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

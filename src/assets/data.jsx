@@ -26,7 +26,7 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     company: "Deloitte Digital",
-    role: "Consultant / Frontend Feveloper",
+    role: "Consultant / FE Developer",
     dateStart: "Oct 2021",
     dateEnd: "present",
     location: "Bucharest",

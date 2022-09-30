@@ -41,3 +41,13 @@
     }
   }
 }
+
+@media screen and (max-width: 599px) {
+  .header {
+    .right-items {
+      a:not(.app-button) {
+        display: none;
+      }
+    }
+  }
+}
