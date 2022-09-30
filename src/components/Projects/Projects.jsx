@@ -69,42 +69,69 @@ const Projects = () => {
           type="radio"
           value="latest"
           name="filter"
+          id="latest"
           aria-label="latest"
           onChange={(e) => changeFilter(e.target.value)}
         />
-        Latest
-        <input
-          type="radio"
-          value=""
-          name="filter"
-          aria-label="all"
-          onChange={(e) => changeFilter(e.target.value)}
-        />
-        All
+        <label
+          htmlFor="latest"
+          className={`${filter === "latest" ? "active" : ""}`}
+        >
+          Latest
+        </label>
         <input
           type="radio"
           value="frontend"
           name="filter"
           aria-label="frontend"
+          id="frontend"
           onChange={(e) => changeFilter(e.target.value)}
         />
-        Frontend
+        <label
+          htmlFor="frontend"
+          className={`${filter === "frontend" ? "active" : ""}`}
+        >
+          Frontend
+        </label>
         <input
           type="radio"
           value="backend"
           name="filter"
           aria-label="backend"
+          id="backend"
           onChange={(e) => changeFilter(e.target.value)}
         />
-        Backend
+        <label
+          htmlFor="backend"
+          className={`${filter === "backend" ? "active" : ""}`}
+        >
+          Backend
+        </label>
         <input
           type="radio"
           value="others"
           name="filter"
           aria-label="others"
+          id="others"
           onChange={(e) => changeFilter(e.target.value)}
         />
-        Others
+        <label
+          htmlFor="others"
+          className={`${filter === "others" ? "active" : ""}`}
+        >
+          Others
+        </label>
+        <input
+          type="radio"
+          value="all"
+          name="filter"
+          aria-label="all"
+          id="all"
+          onChange={(e) => changeFilter(e.target.value)}
+        />
+        <label htmlFor="all" className={`${filter === "all" ? "active" : ""}`}>
+          All
+        </label>
       </div>
       <div className="app-content">
         {filterData().map((project) => {

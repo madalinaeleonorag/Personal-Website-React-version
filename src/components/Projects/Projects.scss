@@ -2,4 +2,30 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+
+  .filters {
+    padding-top: 4vh;
+
+    input {
+      display: none;
+    }
+
+    label {
+      text-decoration: none;
+      color: var(--primary);
+      text-transform: uppercase;
+      background-color: var(--darkPlum);
+      padding: 0.5vh 1vh;
+      border: 1px solid var(--darkPrimary);
+      border-radius: 6px;
+      margin: 0 0.6vw;
+      cursor: pointer;
+    }
+
+    .active {
+      color: var(--primary);
+      background-color: var(--darkPrimary);
+      border-color: var(--primary);
+    }
+  }
 }
