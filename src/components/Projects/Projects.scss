@@ -4,7 +4,10 @@
   align-items: center;
 
   .filters {
-    padding-top: 4vh;
+    padding-top: 2vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
     input {
       display: none;
@@ -18,7 +21,7 @@
       padding: 0.5vh 1vh;
       border: 1px solid var(--darkPrimary);
       border-radius: 6px;
-      margin: 0 0.6vw;
+      margin: 0.6vw;
       cursor: pointer;
     }
 
