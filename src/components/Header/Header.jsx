@@ -19,7 +19,9 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="title">MadalinaEleonora</div>
+      <div className="title">
+        Madalina<span>Eleonora</span>
+      </div>
       <div className="right-items">
         {LINKS.map((recommendation) => {
           return (

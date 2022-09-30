@@ -11,6 +11,10 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
+
+    span {
+      color: var(--lightgray);
+    }
   }
 
   .right-items {
@@ -20,13 +24,18 @@
     a {
       margin: 0 1vw;
 
-      svg {
-        width: 25px;
-        height: 25px;
-        fill: var(--primary);
+      div {
+        display: flex;
+        flex-flow: column;
 
-        &:hover {
-          fill: var(--darkPrimary);
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: var(--primary);
+
+          &:hover {
+            fill: var(--darkPrimary);
+          }
         }
       }
     }
