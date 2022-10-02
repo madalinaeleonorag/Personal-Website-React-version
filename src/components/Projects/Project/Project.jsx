@@ -8,7 +8,6 @@ const Project = ({ projectData }) => {
   const [imageUrl, setImageUrl] = useState("");
 
   useEffect(() => {
-    // try {
     const main = checkImageURL(
       `https://raw.githubusercontent.com/${projectData.full_name}/main/demo.png`
     );
@@ -25,20 +24,6 @@ const Project = ({ projectData }) => {
         console.clear();
       })
       .catch((err) => setImageUrl(`url(${IMAGE_NOT_FOUND})`));
-    // } catch {
-    //   console.log("nope");
-    //   setImageUrl(`url(${IMAGE_NOT_FOUND})`);
-    // }
-
-    // TODO
-    // fetch(projectData.languages_url)
-    //   .then((response) => {
-    //     return response.json();
-    //   })
-    //   .then((languages) => {
-    //     setLanguagesData(languages);
-    //     console.log(languagesData);
-    //   });
   }, []);
 
   return (

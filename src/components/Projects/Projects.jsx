@@ -50,7 +50,7 @@ const Projects = () => {
         return response.json();
       })
       .then((projects) => {
-        if (projects) {
+        if (projects && !projects.message) {
           setProjectsData(projects);
         } else {
           setProjectsData(PROJECTS_FALLBACK);
