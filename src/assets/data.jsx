@@ -91,7 +91,7 @@ export const WORK_EXPERIENCE = [
   },
   {
     company: "IBM iX",
-    role: "Frontend Feveloper",
+    role: "Frontend Developer",
     dateStart: "Dec 2018",
     dateEnd: "Oct 2021",
     location: "Bucharest",

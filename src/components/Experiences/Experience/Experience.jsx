@@ -7,13 +7,19 @@ const Experience = ({ experienceData }) => {
   useEffect(() => {
     import(`../../../assets/icons/${experienceData.companyLogo}.png`).then(
       (image) => {
-        setImageUrl(image.default);
+        setImageUrl(`url(${image.default})`);
       }
     );
   }, []);
+
   return (
     <div className="experience">
-      <img src={imageUrl} alt="" />
+      <div
+        className="experience-image"
+        style={{
+          backgroundImage: imageUrl,
+        }}
+      ></div>
       <div className="experience-content">
         <div className="experience-content-role">{experienceData.role}</div>
         <div className="experience-content-date">

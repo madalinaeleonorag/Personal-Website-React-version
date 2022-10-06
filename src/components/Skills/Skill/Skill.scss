@@ -1,12 +1,12 @@
 .skill {
   padding: 1.2vh 1.2vw;
-  flex: 0 1 10%;
+  width: 85px;
   display: flex;
   flex-flow: column;
   align-items: center;
 
   img {
-    height: 70px;
+    height: 50px;
   }
 
   &-progress-bar {
@@ -25,14 +25,18 @@
 
 @media screen and (max-width: 599px) {
   .skill {
+    width: 70px;
+
     img {
-      height: 50px;
+      height: 40px;
     }
   }
 }
 
 @media screen and (max-width: 445px) {
   .skill {
+    width: 50px;
+
     img {
       height: 30px;
     }
