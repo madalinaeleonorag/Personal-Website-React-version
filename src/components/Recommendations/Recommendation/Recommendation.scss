@@ -10,6 +10,8 @@
     border-radius: 10px;
     padding: 2vh 2vw;
     background: var(--darkPlum);
+    cursor: pointer;
+    position: relative;
 
     &::before {
       content: '" ';
@@ -23,6 +25,20 @@
       font-size: x-large;
       color: var(--darkPrimary);
       font-family: -webkit-body;
+    }
+
+    &:hover {
+      border-color: var(--primary);
+
+      .see-more {
+        display: inline;
+        color: var(--lightgray);
+        font-weight: bold;
+      }
+    }
+
+    .see-more {
+      display: none;
     }
   }
 

@@ -1,0 +1,39 @@
+.recommendation-dialog {
+  .MuiPaper-root {
+    display: flex;
+    flex-flow: column;
+    background-color: var(--darkPlum);
+    border-radius: 10px;
+    padding: 1.5vh;
+    width: 55vw;
+    // height: 45vh;
+    color: var(--white);
+    border: 1px solid var(--darkPrimary);
+  }
+
+  &-title {
+    color: var(--primary);
+    padding: 0 !important;
+  }
+
+  &-details {
+    padding: 1vh 0;
+    color: var(--lightgray);
+  }
+
+  &-text {
+    &::before {
+      content: '" ';
+      font-size: x-large;
+      color: var(--darkPrimary);
+      font-family: -webkit-body;
+    }
+
+    &::after {
+      content: ' "';
+      font-size: x-large;
+      color: var(--darkPrimary);
+      font-family: -webkit-body;
+    }
+  }
+}
