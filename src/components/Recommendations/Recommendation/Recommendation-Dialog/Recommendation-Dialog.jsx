@@ -3,7 +3,6 @@ import Dialog from "@mui/material/Dialog";
 import "./Recommendation-Dialog.scss";
 
 const RecommendationDialog = (props) => {
-  console.log(props);
   const { onClose, selectedValue, open } = props;
 
   const handleClose = () => {
