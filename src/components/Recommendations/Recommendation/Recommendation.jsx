@@ -16,9 +16,13 @@ const Recommendation = ({ recommendationData }) => {
 
   return (
     <div className="recommendation">
-      <div className="recommendation-content" onClick={handleClickOpen}>
+      <div
+        className="recommendation-content app-card"
+        onClick={handleClickOpen}
+      >
+        <span className="quotes">"&nbsp;</span>
         {sliceText(recommendationData.text, 150)}
-        <span className="see-more">Click to read more!</span>
+        <span className="quotes">&nbsp;"&nbsp;</span>
       </div>
       <div className="recommendation-author">
         {`${recommendationData.author}, ${recommendationData.role} in ${recommendationData.from} (${recommendationData.date})`}
