@@ -11,7 +11,7 @@ const Education = ({ educationData }) => {
   }, []);
 
   return (
-    <div className="education">
+    <div className="education app-card">
       <img src={imageUrl} alt="" />
       <div className="education-school">{educationData.school}</div>
       <div className="education-degree">

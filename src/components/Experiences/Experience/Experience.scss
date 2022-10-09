@@ -2,9 +2,6 @@
   display: flex;
   flex-flow: column;
   margin: 1vh 1vw;
-  background-color: var(--darkPlum);
-  border-radius: 10px;
-  padding: 1.5vh;
   align-items: center;
   flex: 1 1 25%;
 
@@ -23,6 +20,7 @@
     flex-flow: column;
     height: -webkit-fill-available;
     justify-content: space-between;
+    padding-bottom: 1.5vh;
 
     &-role {
       font-weight: bold;

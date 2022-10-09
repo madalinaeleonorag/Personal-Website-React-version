@@ -27,7 +27,7 @@ const Project = ({ projectData }) => {
   }, []);
 
   return (
-    <div className="project">
+    <div className="project app-card">
       <div
         className="project-image"
         style={{

@@ -13,7 +13,7 @@ const Experience = ({ experienceData }) => {
   }, []);
 
   return (
-    <div className="experience">
+    <div className="experience app-card">
       <div
         className="experience-image"
         style={{

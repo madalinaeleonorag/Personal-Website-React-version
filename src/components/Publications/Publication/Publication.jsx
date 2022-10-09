@@ -2,7 +2,7 @@ import "./Publication.scss";
 
 const Publication = ({ publicationData }) => {
   return (
-    <div className="publication">
+    <div className="publication app-card">
       <div
         className="publication-image"
         style={{

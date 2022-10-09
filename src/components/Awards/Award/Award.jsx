@@ -3,7 +3,7 @@ import "./Award.scss";
 
 const Award = ({ awardData }) => {
   return (
-    <div className="award">
+    <div className="award app-card">
       <SVGImage image={awardData.place} />
       <div className="award-name">{awardData.name}</div>
       <div className="award-date">{awardData.date}</div>
