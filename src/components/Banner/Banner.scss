@@ -1,21 +1,49 @@
 .banner {
-  background: url(../../assets/images/banner-background.png);
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
+  background-color: var(--darkPlum);
+  height: 40vh;
   display: flex;
-  flex-flow: column;
-  justify-content: center;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
 
-  .subtitle {
-    font-family: monospace;
-    font-size: 1.7rem;
-    color: var(--lightgray);
+  &-content {
+    &-subtitle {
+      font-family: monospace;
+      font-size: 1.7rem;
+      color: var(--lightgray);
+    }
+
+    &-title {
+      font-size: 2rem;
+      color: var(--primary);
+    }
   }
 
-  .title {
-    font-size: 2rem;
-    color: var(--primary);
+  &-image {
+    background: var(--border-gradient);
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+    width: 40vw;
+    max-height: 100%;
+    margin-left: 2vw;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 1px;
+      border-radius: inherit;
+      z-index: -1;
+      background: url(../../assets/images/banner.png);
+      background-size: cover;
+      background-position: center;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
   }
 }
 
