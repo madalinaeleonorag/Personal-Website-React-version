@@ -1,0 +1,58 @@
+.experience-dialog {
+  .MuiPaper-root {
+    display: flex;
+    flex-flow: column;
+    background-color: var(--darkPlum);
+    border-radius: 10px;
+    padding: 1.5vh;
+    width: 70vw;
+    color: var(--white);
+    border: 1px solid var(--darkPrimary);
+  }
+
+  &-title {
+    padding: 0 !important;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    &-logo {
+      height: 5vh;
+      margin-right: 1vw;
+      border-radius: 7px;
+    }
+
+    &-details {
+      color: var(--lightgray);
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      line-height: 1.2rem;
+
+      span {
+        color: var(--primary);
+        font-weight: bold;
+      }
+
+      &-date,
+      &-location {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &-details {
+    padding: 1vh 0;
+    color: var(--lightgray);
+
+    &-technologies {
+      display: flex;
+      flex-flow: wrap;
+
+      .skill {
+        width: unset;
+        padding: 10px;
+      }
+    }
+  }
+}

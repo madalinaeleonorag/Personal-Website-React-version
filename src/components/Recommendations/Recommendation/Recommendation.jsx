@@ -6,19 +6,11 @@ import "./Recommendation.scss";
 const Recommendation = ({ recommendationData }) => {
   const [open, setOpen] = useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
   return (
     <div className="recommendation">
       <div
         className="recommendation-content app-card"
-        onClick={handleClickOpen}
+        onClick={() => !open && setOpen(true)}
       >
         <span className="quotes">"&nbsp;</span>
         {sliceText(recommendationData.text, 150)}
@@ -30,7 +22,7 @@ const Recommendation = ({ recommendationData }) => {
       <RecommendationDialog
         selectedValue={recommendationData}
         open={open}
-        onClose={handleClose}
+        onClose={() => open && setOpen(false)}
       />
     </div>
   );

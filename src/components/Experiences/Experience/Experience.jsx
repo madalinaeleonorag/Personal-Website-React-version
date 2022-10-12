@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import ExperienceDialog from "./Experience-Dialog/Experience-Dialog";
 import "./Experience.scss";
 
 const Experience = ({ experienceData }) => {
   const [imageUrl, setImageUrl] = useState("");
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     import(`../../../assets/icons/${experienceData.companyLogo}.png`).then(
@@ -13,7 +15,7 @@ const Experience = ({ experienceData }) => {
   }, []);
 
   return (
-    <div className="experience app-card">
+    <div className="experience app-card" onClick={() => !open && setOpen(true)}>
       <div
         className="experience-image"
         style={{
@@ -32,6 +34,11 @@ const Experience = ({ experienceData }) => {
           </div>
         </div>
       </div>
+      <ExperienceDialog
+        selectedValue={experienceData}
+        open={open}
+        onClose={() => open && setOpen(false)}
+      />
     </div>
   );
 };

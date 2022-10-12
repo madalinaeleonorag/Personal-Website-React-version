@@ -4,6 +4,11 @@
   margin: 1vh 1vw;
   align-items: center;
   flex: 1 1 25%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary);
+  }
 
   &-image {
     height: 20vw;
