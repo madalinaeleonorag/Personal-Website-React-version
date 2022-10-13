@@ -7,15 +7,35 @@
   align-items: center;
 
   &-content {
+    font-size: 1.7rem;
+
     &-subtitle {
       font-family: monospace;
-      font-size: 1.7rem;
-      color: var(--lightgray);
+      color: var(--white);
     }
 
     &-title {
-      font-size: 2rem;
       color: var(--primary);
+    }
+
+    &-social-links {
+      padding: 5vh 0 1vh 0;
+      display: flex;
+      flex-flow: wrap;
+
+      a {
+        margin-right: 2vw;
+
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: var(--primary);
+
+          &:hover {
+            fill: var(--darkPrimary);
+          }
+        }
+      }
     }
   }
 
@@ -24,7 +44,7 @@
     z-index: 1;
     position: relative;
     border-radius: 10px;
-    width: 40vw;
+    width: 35vw;
     max-height: 100%;
     margin-left: 2vw;
 

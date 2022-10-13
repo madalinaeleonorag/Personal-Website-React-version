@@ -4,9 +4,8 @@ import Dialog from "@mui/material/Dialog";
 import "./Experience-Dialog.scss";
 import Skill from "../../../UI/Skill/Skill";
 
-const ExperienceDialog = (props) => {
+const ExperienceDialog = ({ onClose, selectedValue, open }) => {
   const [imageUrl, setImageUrl] = useState("");
-  const { onClose, selectedValue, open } = props;
   console.log(selectedValue);
 
   const handleClose = () => {

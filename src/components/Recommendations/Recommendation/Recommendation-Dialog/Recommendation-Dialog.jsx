@@ -2,9 +2,7 @@ import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 import "./Recommendation-Dialog.scss";
 
-const RecommendationDialog = (props) => {
-  const { onClose, selectedValue, open } = props;
-
+const RecommendationDialog = ({ onClose, selectedValue, open }) => {
   const handleClose = () => {
     onClose(selectedValue);
   };

@@ -1,8 +1,14 @@
 import { useEffect, useState } from "react";
+import ArrowTooltip from "../../UI/ArrowTooltip";
 import "./Certification.scss";
 
 const Certification = ({ certificationData }) => {
   const [imageUrl, setImageUrl] = useState("");
+  console.log(certificationData);
+
+  const openCertification = () => {
+    window.open(certificationData.url, "_blank").focus();
+  };
 
   useEffect(() => {
     import(
@@ -14,7 +20,9 @@ const Certification = ({ certificationData }) => {
 
   return (
     <div className="certification">
-      <img src={imageUrl} alt="" />
+      <ArrowTooltip text="Click to open">
+        <img src={imageUrl} alt="" onClick={() => openCertification()} />
+      </ArrowTooltip>
     </div>
   );
 };

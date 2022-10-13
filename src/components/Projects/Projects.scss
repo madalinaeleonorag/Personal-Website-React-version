@@ -23,6 +23,12 @@
       border-radius: 6px;
       margin: 0.6vw;
       cursor: pointer;
+
+      &:hover {
+        color: var(--primary);
+        background-color: var(--background);
+        border-color: var(--primary);
+      }
     }
 
     .active {

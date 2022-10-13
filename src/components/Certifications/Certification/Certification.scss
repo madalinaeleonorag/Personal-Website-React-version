@@ -2,15 +2,19 @@
   margin: 1vh 1vw;
 
   img {
-    height: 100px;
+    height: 120px;
     width: auto;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
 @media screen and (max-width: 599px) {
   .certification {
     img {
-      height: 80px;
+      height: 100px;
     }
   }
 }
@@ -18,7 +22,7 @@
 @media screen and (max-width: 445px) {
   .certification {
     img {
-      height: 55px;
+      height: 65px;
     }
   }
 }

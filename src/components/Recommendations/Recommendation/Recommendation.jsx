@@ -1,5 +1,6 @@
 import { useState } from "react";
 import sliceText from "../../../helpers/slice-text";
+import ArrowTooltip from "../../UI/ArrowTooltip";
 import RecommendationDialog from "./Recommendation-Dialog/Recommendation-Dialog";
 import "./Recommendation.scss";
 
@@ -8,14 +9,16 @@ const Recommendation = ({ recommendationData }) => {
 
   return (
     <div className="recommendation">
-      <div
-        className="recommendation-content app-card"
-        onClick={() => !open && setOpen(true)}
-      >
-        <span className="quotes">"&nbsp;</span>
-        {sliceText(recommendationData.text, 150)}
-        <span className="quotes">&nbsp;"&nbsp;</span>
-      </div>
+      <ArrowTooltip text="Click to open">
+        <div
+          className="recommendation-content app-card"
+          onClick={() => !open && setOpen(true)}
+        >
+          <span className="quotes">"&nbsp;</span>
+          {sliceText(recommendationData.text, 150)}
+          <span className="quotes">&nbsp;"&nbsp;</span>
+        </div>
+      </ArrowTooltip>
       <div className="recommendation-author">
         {`${recommendationData.author}, ${recommendationData.role} in ${recommendationData.from} (${recommendationData.date})`}
       </div>

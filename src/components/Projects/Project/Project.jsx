@@ -41,7 +41,7 @@ const Project = ({ projectData }) => {
             ? sliceText(projectData.description, 70)
             : ""}
         </div>
-        <div className="project-content-languages">{projectData.language}</div>
+        {/* <div className="project-content-languages">{projectData.language}</div> */}
         <a href={projectData.html_url} target="_blank" className="app-button">
           See on GitHub
         </a>
