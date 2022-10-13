@@ -4,7 +4,6 @@ import "./Certification.scss";
 
 const Certification = ({ certificationData }) => {
   const [imageUrl, setImageUrl] = useState("");
-  console.log(certificationData);
 
   const openCertification = () => {
     window.open(certificationData.url, "_blank").focus();

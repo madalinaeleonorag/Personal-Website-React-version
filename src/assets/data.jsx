@@ -57,7 +57,7 @@ export const WORK_EXPERIENCE = [
         startDate: "Oct 2021",
         endDate: "Jan 2022",
         industry: ["Banking", "Insurance"],
-        technologies: ["Angular 8+", "RxJs", "Jira", "moment.js"],
+        technologies: ["Angular", "RxJs", "Jira", "moment.js"],
         contribution: [
           "Wrote a tutorial about how to write clean code when working on the frontend side for Alpha Team",
           "Feature that show to the user the active policies into a responsive and interactive design",
@@ -117,6 +117,7 @@ export const WORK_EXPERIENCE = [
       "Firebase",
       "Vuex",
       "Mocha",
+      "Virtualbox",
     ],
     projects: [
       {
@@ -189,7 +190,7 @@ export const WORK_EXPERIENCE = [
           "REST",
           "RxJs",
           "Adobe Experience Manager",
-          "VirtualBox",
+          "Virtualbox",
           "JQuery",
           "Mocha",
         ],

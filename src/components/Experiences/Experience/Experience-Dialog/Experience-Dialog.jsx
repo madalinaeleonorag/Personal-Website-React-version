@@ -43,6 +43,41 @@ const ExperienceDialog = ({ onClose, selectedValue, open }) => {
             return <Skill skillData={skill} key={skill} showProgress={false} />;
           })}
         </div>
+        <div className="app-title">Assignments</div>
+        {selectedValue.projects.map((project) => {
+          return (
+            <div className="assignment">
+              <div className="assignment-title">
+                💼 {project.name} - {project.country}
+              </div>
+              <div className="assignment-date">
+                🗓️ {project.startDate} - {project.endDate}
+              </div>
+              <div className="assignment-industry">
+                🏦 Industry:{" "}
+                {project.industry.map((industry) => (
+                  <span>{industry} </span>
+                ))}
+              </div>
+              <div className="assignment-technologies">
+                💻 Technologies:{" "}
+                {project.technologies.map((technology) => (
+                  <Skill
+                    skillData={technology}
+                    key={technology}
+                    showProgress={false}
+                  />
+                ))}
+              </div>
+              <div className="assignment-contribution">
+                Noticeable features delivered:
+              </div>
+              {project.contribution.map((contribution) => (
+                <div className="assignment-contribution">★ {contribution}</div>
+              ))}
+            </div>
+          );
+        })}
       </div>
     </Dialog>
   );
