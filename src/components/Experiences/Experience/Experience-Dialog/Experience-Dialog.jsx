@@ -6,7 +6,6 @@ import Skill from "../../../UI/Skill/Skill";
 
 const ExperienceDialog = ({ onClose, selectedValue, open }) => {
   const [imageUrl, setImageUrl] = useState("");
-  console.log(selectedValue);
 
   const handleClose = () => {
     onClose(selectedValue);

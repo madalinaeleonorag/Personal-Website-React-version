@@ -30,6 +30,12 @@
 
 @media screen and (max-width: 599px) {
   .recommendation {
+    flex: 1 1 50%;
+
+    &-content {
+      padding: 2vh 3vw;
+    }
+
     &-author {
       font-size: 0.8rem;
     }

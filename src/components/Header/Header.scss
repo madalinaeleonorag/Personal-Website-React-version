@@ -2,8 +2,23 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin: 2vh 2vw;
+  padding: 2vh 2vw;
   align-items: center;
+  position: fixed;
+  height: 35px;
+  width: -webkit-fill-available;
+  z-index: 2;
+  top: 0;
+  background: var(--border-gradient);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: var(--background);
+    border-radius: inherit;
+    z-index: -1;
+  }
 
   .title {
     color: var(--primary);

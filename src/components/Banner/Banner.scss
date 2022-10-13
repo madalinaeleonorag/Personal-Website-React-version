@@ -5,6 +5,7 @@
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 70px;
 
   &-content {
     font-size: 1.7rem;
@@ -70,13 +71,23 @@
 @media screen and (max-width: 445px) {
   .banner {
     height: 50vh;
+    flex-flow: column;
+    text-align: center;
+    padding-top: 4vh;
 
-    .title {
-      font-size: 1.5rem;
-    }
+    &-content {
+      &-title {
+        font-size: 1.5rem;
+      }
 
-    .subtitle {
-      font-size: 1rem;
+      &-subtitle {
+        font-size: 1rem;
+      }
+
+      &-social-links {
+        padding: 5vh 0 1vh 0;
+        justify-content: center;
+      }
     }
   }
 }

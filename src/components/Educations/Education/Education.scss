@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  flex: 0 1 30%;
+  flex: 0 1 40%;
   text-align: center;
   margin: 1vh 1vw;
   padding: 1.5vh;
@@ -24,8 +24,20 @@
 
 @media screen and (max-width: 445px) {
   .education {
+    flex: 1 1 30%;
+
+    img {
+      height: 110px;
+    }
+
     &-school {
       display: none;
+    }
+
+    &-field {
+      font-size: 0.7rem;
+      line-height: normal;
+      padding: 3px 0;
     }
   }
 }
