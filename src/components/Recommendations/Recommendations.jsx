@@ -20,7 +20,7 @@ const Recommendations = () => {
         })}
       </div>
       {more ? (
-        <div className="app-content">
+        <div className="app-content more">
           {RECOMMENDATIONS.slice(7).map((recommendation) => {
             return (
               <Recommendation

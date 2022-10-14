@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column;
   line-height: 1.5rem;
-  flex: 1 1 45%;
+  flex: 0 1 47%;
   margin: 1vh;
 
   &-content {
@@ -25,6 +25,8 @@
     justify-content: right;
     color: var(--primary);
     padding: 0.5vh 0;
+    text-align: end;
+    font-size: 0.8rem;
   }
 }
 
