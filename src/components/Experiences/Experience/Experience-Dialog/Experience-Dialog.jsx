@@ -11,6 +11,14 @@ const ExperienceDialog = ({ onClose, selectedValue, open }) => {
     onClose(selectedValue);
   };
 
+  const getOverallTechnologies = () => {
+    let technologies = [];
+    selectedValue.projects.forEach((project) =>
+      technologies.push(...project.technologies)
+    );
+    return [...new Set(technologies)];
+  };
+
   useEffect(() => {
     import(`../../../../assets/icons/${selectedValue.companyLogo}.png`).then(
       (image) => {
@@ -38,7 +46,7 @@ const ExperienceDialog = ({ onClose, selectedValue, open }) => {
       <div className="experience-dialog-details">
         <div className="app-title">Overall technologies</div>
         <div className="experience-dialog-details-technologies">
-          {selectedValue.technologies.map((skill) => {
+          {getOverallTechnologies().map((skill) => {
             return <Skill skillData={skill} key={skill} showProgress={false} />;
           })}
         </div>

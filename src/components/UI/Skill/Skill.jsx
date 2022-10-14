@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ArrowTooltip from "../ArrowTooltip";
 import "./Skill.scss";
 
 const Skill = ({ skillData, showProgress }) => {
@@ -18,7 +19,9 @@ const Skill = ({ skillData, showProgress }) => {
 
   return (
     <div className="skill">
-      <img src={imageUrl} alt="" />
+      <ArrowTooltip text={skillData?.logo || skillData}>
+        <img src={imageUrl} alt="" />
+      </ArrowTooltip>
       {showProgress && (
         <div className="skill-progress-bar">
           <span

@@ -22,7 +22,7 @@ const Project = ({ projectData }) => {
           ? setImageUrl(`url(${filteredResult.url})`)
           : setImageUrl(`url(${IMAGE_NOT_FOUND})`);
         // TODO
-        console.clear();
+        // console.clear();
       })
       .catch((err) => setImageUrl(`url(${IMAGE_NOT_FOUND})`));
   }, []);
