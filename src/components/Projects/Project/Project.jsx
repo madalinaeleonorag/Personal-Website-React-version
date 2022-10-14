@@ -14,6 +14,7 @@ const Project = ({ projectData }) => {
     const master = checkImageURL(
       `https://raw.githubusercontent.com/${projectData.full_name}/master/demo.png`
     );
+
     Promise.all([main, master])
       .then((results) => {
         const filteredResult = results.find((item) => item.ok);
