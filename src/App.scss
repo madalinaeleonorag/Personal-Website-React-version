@@ -19,34 +19,27 @@
 
   &-button {
     text-decoration: none;
-    color: var(--primary);
     text-transform: uppercase;
-    background-color: var(--darkPlum);
     padding: 0.5vh 1vh;
-    border: 1px solid var(--darkPrimary);
+    border: 1px solid var(--primary);
     border-radius: 6px;
+    color: var(--primary);
+    background-color: var(--background);
 
     &:hover {
+      border-color: var(--darkPrimary);
       color: var(--primary);
-      background-color: var(--background);
-      border-color: var(--primary);
+      background-color: var(--darkPlum);
     }
   }
 
   &-card {
-    background: var(--border-gradient);
-    z-index: 1;
-    position: relative;
     border-radius: 10px;
-
-    &::before {
-      content: "";
-      position: absolute;
-      inset: 1px;
-      background: var(--darkPlum);
-      border-radius: inherit;
-      z-index: -1;
-    }
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
   }
 
   .copyright {
