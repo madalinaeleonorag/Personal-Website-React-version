@@ -15,7 +15,10 @@ const RecommendationDialog = ({ onClose, selectedValue, open }) => {
       <div className="recommendation-dialog-details">
         {selectedValue.role} at {selectedValue.from} ({selectedValue.date})
       </div>
-      <div className="recommendation-dialog-text">{selectedValue.text}</div>
+      <div
+        className="recommendation-dialog-text"
+        dangerouslySetInnerHTML={{ __html: selectedValue.text }}
+      ></div>
     </Dialog>
   );
 };

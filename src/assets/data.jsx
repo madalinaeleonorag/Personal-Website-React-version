@@ -377,7 +377,22 @@ export const PHOTOS = [
 
 export const RECOMMENDATIONS = [
   {
-    text: `Madalina recently joined our team and rapidly adapted to the project specifics and pace. Feedback from both team and local technical lead is positive as Madalina started working on the project near stabilization phase, but managed to get familiar in a short timeframe with the complexity of the project. As areas of focus I encourage Madalina to work closely with the local and member firm stakeholders by following clear planning & milestones and by addressing questions to reduce delivery ambiguity (more of a "pull" approach, vs push). In addition, Madalina should continue to demonstrate ownership of work and commitment towards project objectives, team with leads to create recommendations/ propose solutions and anticipate potential risks related to managed work/processes. Being a first review on this project, I encourage Madalina to follow-up on her objectives and desired outcomes for assigned areas of responsibility by setting personal goals accordingly with her coach & delivery lead.`,
+    text: `I have been working with Madalina for a year already. During this time, she proved herself to be an exceptional frontend developer. She tackled new features with ease, always on time and with the highest possible quality. She was independent from the start, requiring assistance only in infrastructure & business topics. Today she is able to suggest ways that backend can feed data from the cloud structures to her applications, she is handling integrations with other components with ease. She is also involved in deploying, configuring and installing those applications in the client’s environments.
+    <br><br>
+    She’s a vocal team member and she’s alway deeply involved in discovering all the requirements of what she needs to implement. This is highly appreciated in the project, as it is often very difficult to receive complete specifications from the client. Madalina’s strong commitment to having all the details in has been helping the team get a better understanding of the tasks.
+    <br><br>
+    I encourage her to pursue her journey to learn React and other technologies better. My opinion is that she will benefit greatly from trying to lead a small team of frontend developers, as from a technical perspective she already proved that she could do everything on this project. I’m confident that she can do this and provide people with the support needed to get the job done. `,
+    author: "Andrei-Ioan Popescu",
+    role: "Team Lead",
+    date: "Oct 19, 2022",
+    from: "Deloitte Digital",
+  },
+  {
+    text: `Madalina recently joined our team and rapidly adapted to the project specifics and pace. Feedback from both team and local technical lead is positive as Madalina started working on the project near stabilization phase, but managed to get familiar in a short timeframe with the complexity of the project. As areas of focus I encourage Madalina to work closely with the local and member firm stakeholders by following clear planning & milestones and by addressing questions to reduce delivery ambiguity (more of a "pull" approach, vs push). 
+    <br><br>
+    In addition, Madalina should continue to demonstrate ownership of work and commitment towards project objectives, team with leads to create recommendations/ propose solutions and anticipate potential risks related to managed work/processes. 
+    <br><br>
+    Being a first review on this project, I encourage Madalina to follow-up on her objectives and desired outcomes for assigned areas of responsibility by setting personal goals accordingly with her coach & delivery lead.`,
     author: "Silvana-Roberta Helal",
     role: "Senior Manager",
     date: "May 2, 2022",
