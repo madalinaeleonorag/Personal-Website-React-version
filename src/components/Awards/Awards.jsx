@@ -4,7 +4,7 @@ import "./Awards.scss";
 
 const Awards = () => {
   return (
-    <div className="awards app-padding">
+    <div className="awards app-padding" id="awards">
       <div className="app-title">06. Awards 🏆</div>
       <div className="app-content">
         {AWARDS.map((award) => {

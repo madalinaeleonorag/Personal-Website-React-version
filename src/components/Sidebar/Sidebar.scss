@@ -1,0 +1,31 @@
+.sidebar {
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  top: 0;
+  height: 100%;
+  justify-content: center;
+  right: 1vw;
+  opacity: 0.3;
+
+  &:hover {
+    opacity: unset;
+  }
+
+  .app-card {
+    font-size: 1.7rem;
+    padding: 0.7vw;
+    margin: 1vh 1vw;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .sidebar {
+    display: none;
+  }
+}

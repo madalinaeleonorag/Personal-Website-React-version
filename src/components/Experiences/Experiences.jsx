@@ -4,8 +4,8 @@ import Experience from "./Experience/Experience";
 
 const Experiences = () => {
   return (
-    <div className="experiences app-padding">
-      <div className="app-title">02. Work experiences 📁</div>
+    <div className="experiences app-padding" id="work">
+      <div className="app-title">02. Work experience 📁</div>
       <div className="app-content">
         {WORK_EXPERIENCE.map((experience) => {
           return (

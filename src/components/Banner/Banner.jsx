@@ -4,7 +4,7 @@ import "./Banner.scss";
 
 const Banner = () => {
   return (
-    <div className="banner app-padding">
+    <div className="banner app-padding background-primary-gradient">
       <div className="banner-content">
         <div className="banner-content-subtitle">I am</div>
         <div className="banner-content-title">MADALINA-ELEONORA</div>

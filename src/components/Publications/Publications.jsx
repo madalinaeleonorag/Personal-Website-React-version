@@ -33,7 +33,7 @@ const Publications = () => {
   }, []);
 
   return (
-    <div className="publications app-padding">
+    <div className="publications app-padding" id="publications">
       <div className="app-title">07. I like to write, sometimes ✏️</div>
       <div className="app-content">
         {publicationsData.map((publication) => {

@@ -4,8 +4,8 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div className="contact app-padding">
-      <div className="app-title">Let's be internet BFFs</div>
+    <div className="contact app-padding" id="contact">
+      <div className="app-title">10. Let's be internet BFFs 💌</div>
       <div className="app-content">
         {CONTACT.map((recommendation) => {
           return (

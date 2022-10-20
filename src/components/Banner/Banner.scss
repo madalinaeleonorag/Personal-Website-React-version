@@ -1,11 +1,10 @@
 .banner {
-  background-color: var(--darkPlum);
+  background: var(--primary-gradient);
   height: 50vh;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 70px;
 
   &-content {
     font-size: 1.7rem;
@@ -45,7 +44,7 @@
     z-index: 1;
     position: relative;
     border-radius: 10px;
-    width: 35vw;
+    min-width: 35vw;
     max-height: 100%;
     margin-left: 2vw;
 
@@ -88,6 +87,10 @@
         padding: 5vh 0 1vh 0;
         justify-content: center;
       }
+    }
+
+    &-image {
+      min-width: 50vw;
     }
   }
 }

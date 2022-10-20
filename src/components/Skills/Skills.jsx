@@ -18,7 +18,7 @@ const Skills = () => {
     );
   };
   return (
-    <div className="skills app-padding">
+    <div className="skills app-padding" id="skills">
       <div className="app-title">01. What I worked with the most 🌟</div>
       <div className="app-content">
         {BASE_SKILLS.map((skill) => {

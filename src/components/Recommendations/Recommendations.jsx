@@ -7,8 +7,8 @@ const Recommendations = () => {
   const [more, setMore] = useState(false);
 
   return (
-    <div className="recommendations app-padding">
-      <div className="app-title">09. Recommendations</div>
+    <div className="recommendations app-padding" id="recommendations">
+      <div className="app-title">09. Recommendations 💬</div>
       <div className="app-content">
         {RECOMMENDATIONS.slice(0, 6).map((recommendation) => {
           return (

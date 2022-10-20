@@ -4,7 +4,7 @@ import "./Educations.scss";
 
 const Educations = () => {
   return (
-    <div className="educations app-padding">
+    <div className="educations app-padding" id="education">
       <div className="app-title">03. Education 📚</div>
       <div className="app-content">
         {EDUCATIONS.map((education) => {

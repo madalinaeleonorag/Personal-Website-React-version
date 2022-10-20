@@ -62,7 +62,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects app-padding">
+    <div className="projects app-padding" id="projects">
       <div className="app-title">03. Latest programming projects 💻</div>
       <div className="filters">
         <input

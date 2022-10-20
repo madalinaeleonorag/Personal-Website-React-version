@@ -4,7 +4,7 @@ import "./Certifications.scss";
 
 const Certifications = () => {
   return (
-    <div className="certifications app-padding">
+    <div className="certifications app-padding" id="certifications">
       <div className="app-title">04. What certifications I achieved 📃</div>
       <div className="app-content">
         {CERTIFICATIONS.map((certification) => {

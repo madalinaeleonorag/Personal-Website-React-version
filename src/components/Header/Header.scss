@@ -4,21 +4,11 @@
   justify-content: space-between;
   padding: 2vh 2vw;
   align-items: center;
-  position: fixed;
   height: 35px;
   width: -webkit-fill-available;
   z-index: 2;
   top: -2px;
-  background: var(--border-gradient);
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 1px;
-    background: var(--background);
-    border-radius: inherit;
-    z-index: -1;
-  }
+  background: var(--primary-gradient);
 
   .title {
     color: var(--primary);

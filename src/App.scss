@@ -65,6 +65,14 @@
     line-height: 0;
     fill: var(--background);
   }
+
+  .background-primary-gradient {
+    background: var(--primary-gradient);
+  }
+
+  .background-light-gradient {
+    background: var(--light-gradient);
+  }
 }
 
 @media screen and (max-width: 599px) {

@@ -4,7 +4,7 @@ import "./Photography.scss";
 
 const Photography = () => {
   return (
-    <div className="photography app-padding">
+    <div className="photography app-padding" id="passion">
       <div className="app-title">08. I have a passion 📸</div>
       <div className="app-content">
         {PHOTOS.map((photo) => {
