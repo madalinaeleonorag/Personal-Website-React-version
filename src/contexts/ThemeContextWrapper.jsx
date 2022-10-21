@@ -21,6 +21,18 @@ const ThemeContextWrapper = ({ children }) => {
         document
           .querySelector(":root")
           .style.setProperty("--background", "#ffffff");
+        document
+          .querySelector(":root")
+          .style.setProperty(
+            "--primary-gradient",
+            "linear-gradient( to right, var(--darkPlum), var(--lightgray), var(--darkPlum) )"
+          );
+        document
+          .querySelector(":root")
+          .style.setProperty(
+            "--light-gradient",
+            "linear-gradient( to right, var(--background), var(--lightgray), var(--background) )"
+          );
         break;
       case themes.dark:
       default:

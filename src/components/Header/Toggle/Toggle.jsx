@@ -8,16 +8,14 @@ const Toggle = () => {
   return (
     <ThemeContext.Consumer>
       {({ changeTheme }) => (
-        <div className="toggle">
-          <input
-            type="checkbox"
-            id="switch"
-            onClick={() => {
-              setDarkMode(!darkMode);
-              changeTheme(darkMode ? themes.light : themes.dark);
-            }}
-          />
-          <label htmlFor="switch"></label>
+        <div
+          className="toggle app-button"
+          onClick={() => {
+            setDarkMode(!darkMode);
+            changeTheme(darkMode ? themes.light : themes.dark);
+          }}
+        >
+          {darkMode ? "🌤️" : "🌙"}
         </div>
       )}
     </ThemeContext.Consumer>

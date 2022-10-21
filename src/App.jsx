@@ -12,6 +12,7 @@ import Photography from "./components/Photography/Photography";
 import Recommendations from "./components/Recommendations/Recommendations";
 import Contact from "./components/Contact/Contact";
 import Sidebar from "./components/Sidebar/Sidebar";
+import HTMLTag from "./components/UI/HTMLTag/HTMLTag";
 
 function App() {
   return (
