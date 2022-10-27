@@ -1,5 +1,5 @@
 .contact {
-  background-color: var(--darkPlum);
+  background-color: var(--dark-secondary);
 
   .app-content {
     a {
@@ -11,7 +11,7 @@
         fill: var(--primary);
 
         &:hover {
-          fill: var(--darkPrimary);
+          fill: var(--secondary);
         }
       }
     }

@@ -13,11 +13,11 @@ const ThemeContextWrapper = ({ children }) => {
       case themes.light:
         document
           .querySelector(":root")
-          .style.setProperty("--lightgray", "#fcdede");
+          .style.setProperty("--accent", "#fcdede");
         document.querySelector(":root").style.setProperty("--white", "#000");
         document
           .querySelector(":root")
-          .style.setProperty("--darkPlum", "#efeaee");
+          .style.setProperty("--dark-secondary", "#efeaee");
         document
           .querySelector(":root")
           .style.setProperty("--background", "#ffffff");
@@ -25,13 +25,13 @@ const ThemeContextWrapper = ({ children }) => {
           .querySelector(":root")
           .style.setProperty(
             "--primary-gradient",
-            "linear-gradient( to right, var(--darkPlum), var(--lightgray), var(--darkPlum) )"
+            "linear-gradient( to right, var(--dark-secondary), var(--accent), var(--dark-secondary) )"
           );
         document
           .querySelector(":root")
           .style.setProperty(
             "--light-gradient",
-            "linear-gradient( to right, var(--background), var(--lightgray), var(--background) )"
+            "linear-gradient( to right, var(--background), var(--accent), var(--background) )"
           );
         break;
       case themes.dark:

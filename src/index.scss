@@ -8,12 +8,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --black: #2a2529;
-  --darkPrimary: #621111;
-  --lightgray: #fcdede;
-  --white: #fff;
-  --darkPlum: #231e22;
-  --primary: #d02929;
+  --dark-secondary: #231e22;
   --background: #2a2529;
   --border-gradient: linear-gradient(
     to bottom right,
@@ -22,9 +17,9 @@
   );
   --primary-gradient: linear-gradient(
     to right,
-    var(--darkPlum),
+    var(--dark-secondary),
     #621111b0,
-    var(--darkPlum)
+    var(--dark-secondary)
   );
   --light-gradient: linear-gradient(
     to right,
@@ -32,6 +27,12 @@
     #621111b0,
     var(--background)
   );
+
+  --primary: #d02929;
+  --secondary: #551111;
+  --accent: #f7d4d4;
+  --white: #fff;
+  --black: #2a2529;
 }
 
 @font-face {
@@ -66,7 +67,7 @@ a {
   text-decoration: none;
   color: unset;
   &:hover {
-    color: var(--darkPrimary);
+    color: var(--secondary);
     cursor: pointer;
   }
 }

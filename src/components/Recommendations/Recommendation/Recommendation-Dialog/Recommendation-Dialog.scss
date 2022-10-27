@@ -2,14 +2,14 @@
   .MuiPaper-root {
     display: flex;
     flex-flow: column;
-    background-color: var(--darkPlum);
+    background-color: var(--dark-secondary);
     border-radius: 10px;
     padding: 1.5vh;
     width: 55vw;
     max-width: unset;
     max-height: 70vh;
     color: var(--white);
-    border: 1px solid var(--darkPrimary);
+    border: 1px solid var(--secondary);
   }
 
   &-title {
@@ -26,14 +26,14 @@
     &::before {
       content: '" ';
       font-size: x-large;
-      color: var(--darkPrimary);
+      color: var(--secondary);
       font-family: -webkit-body;
     }
 
     &::after {
       content: ' "';
       font-size: x-large;
-      color: var(--darkPrimary);
+      color: var(--secondary);
       font-family: -webkit-body;
     }
   }

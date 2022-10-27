@@ -27,9 +27,9 @@
     background-color: var(--background);
 
     &:hover {
-      border-color: var(--darkPrimary);
+      border-color: var(--secondary);
       color: var(--primary);
-      background-color: var(--darkPlum);
+      background-color: var(--dark-secondary);
     }
   }
 
@@ -48,18 +48,18 @@
     font-size: smaller;
     width: -webkit-fill-available;
     text-align-last: center;
-    background: var(--darkPlum);
+    background: var(--dark-secondary);
   }
 
   .down-arrow-dark {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    fill: var(--darkPlum);
+    fill: var(--dark-secondary);
   }
 
   .down-arrow-light {
-    background: var(--darkPlum);
+    background: var(--dark-secondary);
     width: 100%;
     overflow: hidden;
     line-height: 0;
