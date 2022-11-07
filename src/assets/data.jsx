@@ -72,6 +72,7 @@ export const WORK_EXPERIENCE = [
           "Sass",
           "Teams",
           "Zoom",
+          "Next.js",
         ],
         contribution: [
           "Create new React components and upload them into Mambu",
@@ -377,6 +378,17 @@ export const PHOTOS = [
 
 export const RECOMMENDATIONS = [
   {
+    text: `I’ve met Madalina when she joined the BRASS project in February 2022 as a front-end developer. She quickly learned NextJS and React frameworks, since in the previous projects she was focused on different technologies; as a result she implemented new functionalities and maintained the existing ones in no time. Nowadays she proves her great technical expertise and collaboration skills with every task that is assigned to her, and is supporting the project teams with business and technical information for successful integrations.
+    <br><br>
+    Regarding team dynamics, she integrated fast in the team and is a valuable team member.
+    <br><br>
+    I’m looking forward to collaborate with her in the future.`,
+    author: "Cristina-Mihaela Antohe",
+    role: "Senior Consultant",
+    date: "Nov 7, 2022",
+    from: "Deloitte Digital",
+  },
+  {
     text: `I have been working with Madalina for a year already. During this time, she proved herself to be an exceptional frontend developer. She tackled new features with ease, always on time and with the highest possible quality. She was independent from the start, requiring assistance only in infrastructure & business topics. Today she is able to suggest ways that backend can feed data from the cloud structures to her applications, she is handling integrations with other components with ease. She is also involved in deploying, configuring and installing those applications in the client’s environments.
     <br><br>
     She’s a vocal team member and she’s alway deeply involved in discovering all the requirements of what she needs to implement. This is highly appreciated in the project, as it is often very difficult to receive complete specifications from the client. Madalina’s strong commitment to having all the details in has been helping the team get a better understanding of the tasks.
@@ -408,7 +420,7 @@ export const RECOMMENDATIONS = [
   {
     text: `I’ve met Madalina when she joined the project in February as a front-end developer. Madalina is great at picking new things up. Even though Next JS and React weren’t her areas of focus, she managed to quickly learn the frameworks and took over the FE topics and successfully implemented new functionalities in no time. Regarding team dynamics, she integrated fast in the team, proving great collaboration skills, and communicates well with the team and in client based meetings. I would encourage her to keep up the good work, and continue the same good practices to further develop her technical and soft skills. II really enjoy working with her and I’m looking forward to collaborate with her in the future.`,
     author: "Cristina-Mihaela Antohe",
-    role: "Backend Developer",
+    role: "Senior Consultant",
     date: "Apr 20, 2022",
     from: "Deloitte Digital",
   },
