@@ -378,6 +378,20 @@ export const PHOTOS = [
 
 export const RECOMMENDATIONS = [
   {
+    text: `Madalina’s onboarding into project was quite fast and Madalina started with bringing values into project almost immediately.
+    Her responses to any demand from team or from customer is quite fast (replying project messages, helping others with questions about her Front-end domain, …). Tickets are solved by her with high quality.
+    She is trying to help also in areas out of her main domain (working on backend tasks if needed).
+    <br><br>
+    Brief resumé: 
+    Madalina is really valuable member of Team member,
+    more of self-initiative in areas which are visibly not covered well on project will help her to present herself with higher seniority,
+    she is currently operating at the next level.`,
+    author: "Pavol Tomek",
+    role: "Project Manager / Scrum Master",
+    date: "Nov 10, 2022",
+    from: "Deloitte Digital",
+  },
+  {
     text: `I’ve met Madalina when she joined the BRASS project in February 2022 as a front-end developer. She quickly learned NextJS and React frameworks, since in the previous projects she was focused on different technologies; as a result she implemented new functionalities and maintained the existing ones in no time. Nowadays she proves her great technical expertise and collaboration skills with every task that is assigned to her, and is supporting the project teams with business and technical information for successful integrations.
     <br><br>
     Regarding team dynamics, she integrated fast in the team and is a valuable team member.
