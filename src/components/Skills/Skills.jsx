@@ -8,7 +8,7 @@ const Skills = () => {
     let baseTechnologiesKeys = BASE_SKILLS.map(({ name }) => name);
 
     WORK_EXPERIENCE.forEach((experience) => {
-      experience.projects.forEach((project) =>
+      experience.projects?.forEach((project) =>
         technologies.push(...project.technologies)
       );
     });

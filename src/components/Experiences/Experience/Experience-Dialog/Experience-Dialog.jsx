@@ -13,7 +13,7 @@ const ExperienceDialog = ({ onClose, selectedValue, open }) => {
 
   const getOverallTechnologies = () => {
     let technologies = [];
-    selectedValue.projects.forEach((project) =>
+    selectedValue.projects?.forEach((project) =>
       technologies.push(...project.technologies)
     );
     return [...new Set(technologies)];
@@ -51,7 +51,7 @@ const ExperienceDialog = ({ onClose, selectedValue, open }) => {
           })}
         </div>
         <div className="app-title">Assignments</div>
-        {selectedValue.projects.map((project) => {
+        {selectedValue.projects?.map((project) => {
           return (
             <div className="assignment">
               <div className="assignment-title">

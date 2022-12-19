@@ -14,10 +14,18 @@ export const BASE_SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
+    company: "Cognizant Softvision",
+    role: "Frontend Developer",
+    dateStart: "Jan 2023",
+    dateEnd: "present",
+    location: "Bucharest",
+    companyLogo: "cognizant",
+  },
+  {
     company: "Deloitte Digital",
     role: "Consultant / FE Developer",
     dateStart: "Oct 2021",
-    dateEnd: "present",
+    dateEnd: "Dec 2022",
     location: "Bucharest",
     companyLogo: "deloitte-digital",
     projects: [
