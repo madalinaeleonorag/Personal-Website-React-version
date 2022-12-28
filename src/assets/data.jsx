@@ -62,7 +62,7 @@ export const WORK_EXPERIENCE = [
         name: "Client 2",
         country: "Germany",
         startDate: "Feb 2022",
-        endDate: "present",
+        endDate: "Dec 2022",
         industry: ["Banking"],
         technologies: [
           "HTML",
